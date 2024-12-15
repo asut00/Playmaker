@@ -6,8 +6,6 @@ const REDIRECT_URL = "&redirect_uri=https://alexs9090909.github.io/playmakerapp/
 const SCOPE = '&scope=ugc-image-upload user-read-playback-state user-modify-playback-state user-read-currently-playing playlist-modify-public playlist-modify-private playlist-read-private playlist-read-collaborative';
 let TOKEN = null;
 
-/*  let apiKey = "BQCIHk_B6sJGR5f0fhBGM8RI7RzvIWsuCANY6NiKAheSpKsteRPEUTU50kmObhMsHq6xitwlf0_MhjoyZVLnxynTbsnmYF1ewXe4zXdhO9IWo4zp3Z09QiP8xI4awFxC36RdVRU5miChXDanugLoF06-_jI9XoUMu38PVYTDtcjqD14txydNHW_DPG5VLiKgSwo73583W9Zoqv1n7KmRzeXfr2eKeNKsdFHeZXKm3uVNbMq-HHelM6x_3BS6jvQRGhMAHKXV7Q" */ // Access token à renouveler toutes les heures 
-
 const getToken = () => {
    
     if (TOKEN) {
@@ -127,36 +125,4 @@ const Spotify = {
     }
 }
 
-
 export { Spotify, getToken, REDIRECT_URL, TOKEN };
-
-
-
-/*
-
-http://localhost:3000/#access_token=
-
-BQAXmZzANGKXOSaIQaxRlngYF13k3-vjkcTYGIoLthSMBcU_tiYhDtRSeZJr07BxjbZgLR5mmOcsYnnarZYWhK-t-0uX5DS2Vc9pGVwcAOO4GbZiwKC81S1vtLvKMYJhcSCO0kXQa07E1l3yJIm2MIXQ4BTDtoUV1JvHUr2pZ0OKrrP3nPgcYLr2po5V8xtLUhp3MSvAXSf7OW1PiwVMJlEqUY3T8RxUXbjuoIpip4oTh681LyGzHRA5vjmz
-
-&token_type=Bearer&expires_in=3600&state=XPubkNMqxCslAjw0
-
-
-http://localhost:3000/#access_token=
-
-BQBQu603MWS2Q51LqWhhpzvX359-d8oxQ4U1YseT05hjzRPKTGV2HXUOabr06FYhbocyvuSDKN-iOSdVfI3Z46y19GtFUr7Gfie1LKnH3VIeoAR-aCtfRqQ28u_FYQ1EnH2cnP7YI8u16cAympJhVNG7PolFX8fRKTI2yLftSx9cJASrv8Yg6c21xrjVOzFYUJwU-CdVByVsIzXohZ8pDtw5E6Pjr0Ws2pwXWxi0tdg3UaZ7Bb_ePpU1swSo
-
-&token_type=Bearer&expires_in=3600&state=emGMhBkNZ1GqYhQw
-
-
-
-http://localhost:3000/#access_token=
-
-BQCIHk_B6sJGR5f0fhBGM8RI7RzvIWsuCANY6NiKAheSpKsteRPEUTU50kmObhMsHq6xitwlf0_MhjoyZVLnxynTbsnmYF1ewXe4zXdhO9IWo4zp3Z09QiP8xI4awFxC36RdVRU5miChXDanugLoF06-_jI9XoUMu38PVYTDtcjqD14txydNHW_DPG5VLiKgSwo73583W9Zoqv1n7KmRzeXfr2eKeNKsdFHeZXKm3uVNbMq-HHelM6x_3BS6jvQRGhMAHKXV7Q
-
-&token_type=Bearer&expires_in=3600&state=uTvo6sv20HoYocs8
-
-
-*/
-
-
-/* faire ctrl+z pour enlever toutes les lignes du haut et ca revient à avant authorization work */
