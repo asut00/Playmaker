@@ -1,0 +1,64 @@
+.SearchBarContainer {
+    display: flex;
+    flex-direction: column;
+    margin : 4% 0 0 0;
+}
+
+.SearchBarInput {
+    margin: 0 auto;
+    width: 80%;
+    height: 80%;
+}
+
+input {
+    border: 0px solid white;
+    padding: 5px;
+    margin: 0;
+    font: 13px sans-serif;
+    height: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.2); /* Couleur blanche avec une opacité de 0.2 */
+    color: ; /* Couleur du texte */
+    border: none; /* Pour enlever la bordure, ajoutez-le selon vos besoins */
+    padding: 10px; /* Ajoutez le rembourrage selon vos besoins */
+    border-radius: 10px;
+
+
+    /* border-radius: 12px;*/
+}
+
+::placeholder {
+    color: black;
+}
+
+.SearchBarButtonContainer, button {
+    display: flex;
+    margin: 8% 0 0 0;
+    background-color: red;
+}
+
+button {
+    margin: 15px auto 10px auto;
+    padding: auto;
+    width : 20%;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 1px black;
+    font-weight: 600;
+    justify-content: center;
+    height: 30px;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+    font-family: 'Manrope', sans-serif;
+    border-radius: 5px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+*:focus {
+    outline: none;
+}

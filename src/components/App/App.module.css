@@ -1,0 +1,143 @@
+/* App.css */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Manrope', sans-serif;
+    background: linear-gradient(to right, #3B5DBF, #FF6933);
+  }
+  
+  .AppTitle {
+    position: absolute;
+    left: 50%;
+    top: 8%;
+    transform: translate(-50%, -50%);
+    font-family: 'Syne', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 800;
+  }
+
+  .PopupWindow {
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+    z-index: 999; 
+  }
+  
+  .WhiteLayer {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 10000px;
+    height: 10000px;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+  }
+
+  .ConnectButton {
+    color: white;
+    background-color: #1DB954;
+    position:absolute;
+    font-size: 1.4rem;
+    width: 170px;
+    height: 60px;
+    top: 40px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 30px;
+    border: 5px solid #16DB93;
+  }
+
+  .ConnectButton img{
+    width: 20px;
+    height: auto;
+    margin: 0 5px 0 0;
+  }
+
+  .Container {
+    display: flex;
+    height: 100vh;
+  }
+
+  
+  .BlueSection {
+    flex: 1;
+    /* background-color: #3B5DBF; */
+    display: flex;
+  }
+  
+  .RedSection {
+    flex: 1;
+    /* background-color: #FF6933;*/
+    display: flex;
+  }
+  
+/* Partie relative aux composants internes à la BlueSection */
+
+  .SearchContainer {
+    /* border: 2px solid #3B5DBF; */
+    height: 550px;
+    width: 60%;
+    margin: auto;
+    margin-top: 110px;
+    margin-left: 30%;
+    border-radius: 20px;
+    display: block;
+    background-color: rgba(255, 255, 255, 0.1);
+    /* z-index: 2; */
+  }
+
+  /* .SearchContainerBackground {
+    position : absolute;
+    background-color: white;
+    opacity: 0.1;
+    height: 550px;
+    width: 30%;
+    margin-left: 10%;
+    margin-top: 95px;
+    border-radius: 20px;
+    z-index: 1;
+  }
+  */
+
+  .SearchTitle {
+    margin: 5% auto 0 auto;
+    text-align: center;
+    font-family: 'Syne', sans-serif;
+  }
+
+/* Partie relative aux composants internes à la RedSection */
+
+
+  .PlaylistContainer {
+    opacity: 0.9;
+    height: 550px;
+    width: 60%;
+    margin: auto;
+    margin-top: 110px;
+    margin-left: 10%;
+    border-radius: 20px;
+    display: block;
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+
+  /* .PlaylistContainerBackground {
+    position : absolute;
+    background-color: white;
+    opacity: 0.1;
+    height: 550px;
+    width: 30%;
+    margin-left: 10%;
+    margin-top: 95px;
+    border-radius: 20px;
+    z-index: 1;
+  } */
+
+  .PlaylistTitle {
+    margin: 5% auto 0 auto;
+    text-align: center;
+    font-family: 'Syne', sans-serif;
+    font-weight: 700;
+  }

@@ -1,0 +1,53 @@
+/* LandingPage.module.css */
+
+.LandingPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* 100% de la hauteur de la vue */
+  background-color: rgba(255, 255, 255, 1); /* Blanc légèrement transparent */
+  text-align: center;
+  padding: 20px;
+  width: 600px; /* Largeur du rectangle blanc */
+  height: 450px; /* Hauteur du rectangle blanc */
+  margin: auto; /* Centrage horizontal */
+  margin-top: 10%; /* Centrage vertical */
+  margin-bottom: auto; /* Centrage vertical */
+  border-radius: 50px;
+}
+
+.ConnectButton {
+  color: white;
+  background-color: #1DB954;
+  margin-top: 10px;
+  font-size: 1.4rem;
+  width: 170px;
+  height: 60px;
+  border-radius: 30px;
+  border: 5px solid #16DB93;
+}
+
+.ConnectButton img {
+  width: 20px;
+  height: auto;
+  margin: 0 5px 0 0;
+}
+
+.TextContent {
+  width: 80%;
+  /* Ajoutez des styles pour le contenu texte */
+}
+
+a {
+  color:black;
+}
+
+.Login {
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+
+button img {
+  margin-right: 5px;
+}
